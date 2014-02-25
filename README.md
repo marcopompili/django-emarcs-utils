@@ -16,6 +16,10 @@ Configuration
 The configuration is pretty basic just add these lines to your settings.py file:
 ```python
 
+import django.conf.global_settings as DEFAULT_SETTINGS
+
+# [...]
+
 INSTALLED_APPS = (
 ...
 'emarcs'
