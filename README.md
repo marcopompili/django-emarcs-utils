@@ -43,3 +43,12 @@ To use the libraries on a template it's simple, just use the include template ta
 # To include jquery
 {% include "emarcs/lib/js/jquery.html" %}
 ```
+
+Libraries
+------------
+The list of the libraries that you can include.
+* jquery 1.11.0
+* jquery 2.1.0
+* Bootstrap 3.1.1
+* Font Awesome 4.0.3
+* IE8 HTML5Shiv
