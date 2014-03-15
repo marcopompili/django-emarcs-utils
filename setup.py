@@ -14,7 +14,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
       name='django-emarcs-utils',
       version='0.1',
-      packages=['emarcs'],
+      packages=['emarcs', 'emarcs.utils'],
       include_package_data=True,
       license='MIT License',
       description='Some models and other utils to semplify Django developing.',
