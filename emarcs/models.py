@@ -1,10 +1,11 @@
-'''
+"""
 Created on 20/gen/2014
 
 @author: Marco Pompili
-'''
+"""
 
 from django.db import models
+
 
 class UniqueBooleanField(models.BooleanField):
     def pre_save(self, model_instance, add):

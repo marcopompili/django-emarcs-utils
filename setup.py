@@ -1,8 +1,8 @@
-'''
+"""
 Created on 24/gen/2014
 
 @author: Marco Pompili
-'''
+"""
 
 import os
 from setuptools import setup
@@ -17,11 +17,12 @@ setup(
       packages=['emarcs', 'emarcs.utils'],
       include_package_data=True,
       license='MIT License',
-      description='Some models and other utils to semplify Django developing.',
+      description='Some models and other utils to simplify Django developing.',
       long_description=README,
       url='https://github.com/marcopompili/django-emarcs-utils',
       author='Marco Pompili',
       author_email='marcs@emarcs.org',
+      install_requires=[ 'django' ],
       classifiers=[
             'Environment :: Web Environment',
             'Framework :: Django',
