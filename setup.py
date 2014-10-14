@@ -12,16 +12,16 @@ README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-      name='django-emarcs-utils',
+      name=str('django-emarcs-utils'),
       version='0.1',
-      packages=['emarcs', 'emarcs.utils'],
+      packages=['emarcs', 'emarcs.utils', 'emarcs.templatetags'],
       include_package_data=True,
-      license='MIT License',
-      description='Some models and other utils to simplify Django developing.',
+      license=str('MIT License'),
+      description=str('Some models and other utils to simplify Django developing.'),
       long_description=README,
-      url='https://github.com/marcopompili/django-emarcs-utils',
-      author='Marco Pompili',
-      author_email='marcs@emarcs.org',
+      url=str('https://github.com/marcopompili/django-emarcs-utils'),
+      author=str('Marco Pompili'),
+      author_email=str('django@emarcs.org'),
       install_requires=[ 'django' ],
       classifiers=[
             'Environment :: Web Environment',

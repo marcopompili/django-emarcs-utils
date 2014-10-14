@@ -1,7 +1,7 @@
-{% if on_debug %}
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+{% if debugging %}
+	<link href="//netdna.bootstrapcdn.com/bootstrap/{{ version }}/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+	<link href="//netdna.bootstrapcdn.com/bootstrap/{{ version }}/css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
 {% else %}
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+	<link href="//netdna.bootstrapcdn.com/bootstrap/{{ version }}/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="//netdna.bootstrapcdn.com/bootstrap/{{ version }}/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
 {% endif %}
